@@ -1,0 +1,138 @@
+.container{
+    background-color: #E0E8FF;
+    max-width: 1440;
+    width: 100%;
+    position: relative;
+    height:100vh ;
+    display: flex;
+}
+.img1{
+   width: 100vw;
+   top: 0;
+   left: 0;
+   position: absolute;
+}
+.div2{
+    position: absolute;
+    width: 450px;
+    height: 697px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.p1{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+color: #1F2E55;
+margin-top: 29px;
+
+} 
+.p2{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #717FA6;
+margin-top: 17px;
+}
+.div5{
+    margin-top: 20px;
+    width: 354px;
+    height: 98px;
+    position: absolute;
+left: 10.67%;
+right: 10.67%;
+top: 59.83%;
+bottom: 26.11%;
+display: flex;
+background: #F7F9FF;
+border-radius: 11px;
+justify-content: space-around;
+flex-direction: row;
+align-items: flex-start;
+align-items: center;
+}
+.p3{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+
+color: #1F2E55;
+}
+ .span1{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #717FA6; 
+}
+.span2{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-decoration-line: underline;
+color: #382AE1;
+}
+.div6{
+    margin-left: -50px;
+} 
+ .div7{
+    width: 354px;
+    height: 50px;
+    background: #382AE1;
+box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+border-radius: 11px;
+margin-top: 200px;
+margin-left: 48px;
+} 
+ .p4{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+margin-left: 102px;
+margin-top: 15px;
+position: absolute;
+} 
+ .span3{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 20px;
+color: #717FA6;
+position: absolute;
+height: 20px;
+left: 39.11%;
+right: 39.56%;
+top: calc(50% - 20px/2 + 290.5px);
+} 
+ .span2:hover{
+    color: #766CF1;
+    text-decoration-line: none ;
+    cursor: pointer;
+ }
+ .div7:hover{
+    background: #766CF1;
+    cursor: pointer;
+ }
+ .span3:hover{
+    color:#1F2E55;
+    cursor: pointer;
+ }
